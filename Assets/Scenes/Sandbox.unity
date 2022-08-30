@@ -202,7 +202,10 @@ Transform:
   m_LocalRotation: {x: 0.4999996, y: -0, z: -0, w: 0.8660257}
   m_LocalPosition: {x: 0, y: 19.1, z: -14.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -296,11 +299,15 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 --- !u!1 &626255147
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,6 +391,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626255147}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> main
 --- !u!1 &732590192
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,7 +436,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children:
   - {fileID: 1708869616}
   m_Father: {fileID: 0}
@@ -461,7 +473,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 509303ee69e48a841ac32daa0fd2a2fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   _maxSpeed: 0.25
+=======
+  _moveSpeed: 0.15
+>>>>>>> main
   _turnSpeed: 2
 --- !u!114 &732590197
 MonoBehaviour:
@@ -475,7 +491,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7deae910b21a2142adfc1132501442e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   _maxHealth: 3
+=======
+>>>>>>> main
 --- !u!1 &773184507
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +523,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.49, z: 0.26}
   m_LocalScale: {x: 0.41820297, y: 0.33804992, z: 1.1994224}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children: []
   m_Father: {fileID: 1708869616}
   m_RootOrder: 3
@@ -520,7 +542,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
+=======
+>>>>>>> main
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -587,7 +612,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.07, z: -0.19}
   m_LocalScale: {x: 0.8793662, y: 0.48290083, z: 0.88479}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children: []
   m_Father: {fileID: 1708869616}
   m_RootOrder: 0
@@ -603,7 +631,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
+=======
+>>>>>>> main
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -670,7 +701,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.694, y: -0.18, z: 0}
   m_LocalScale: {x: 0.46179903, y: 0.57787, z: 1.5576507}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children: []
   m_Father: {fileID: 1708869616}
   m_RootOrder: 2
@@ -686,7 +720,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
+=======
+>>>>>>> main
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -725,6 +762,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038491498}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!1 &1046962597
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +846,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046962597}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> main
 --- !u!1 &1164151239
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,7 +876,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.687, y: -0.18, z: 0}
   m_LocalScale: {x: 0.46179903, y: 0.57787, z: 1.5576507}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children: []
   m_Father: {fileID: 1708869616}
   m_RootOrder: 1
@@ -852,7 +895,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
+=======
+>>>>>>> main
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -891,6 +937,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164151239}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!1 &1388767558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1102,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -45, y: 90, z: -90}
+=======
+>>>>>>> main
 --- !u!1 &1708869615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1130,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children:
   - {fileID: 860696568}
   - {fileID: 1164151240}
@@ -1134,7 +1186,10 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
+=======
+>>>>>>> main
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1183,11 +1238,15 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< HEAD
   m_ConstrainProportionsScale: 0
+=======
+>>>>>>> main
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1985894783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,3 +1460,5 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083046582}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> main

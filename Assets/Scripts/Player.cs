@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+<<<<<<< HEAD
 [RequireComponent(typeof(TankController))]
 public class Player : MonoBehaviour
 {
@@ -40,5 +41,19 @@ public class Player : MonoBehaviour
         gameObject.SetActive(false);
         //boom
         //bang
+=======
+public class Player : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+>>>>>>> main
     }
 }
