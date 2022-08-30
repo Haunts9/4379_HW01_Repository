@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 [RequireComponent(typeof(TankController))]
 public class Player : MonoBehaviour
 {
     [SerializeField] int _maxHealth = 3;
     int _currentHealth;
-
+    int _score = 0;
     TankController _tankController;
-
+    [SerializeField] TextMeshProUGUI _scoreText;
     private void Awake()
     {
         _tankController = GetComponent<TankController>();
@@ -18,6 +19,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _currentHealth = _maxHealth;
+        _scoreText.text = ("Score: " + _score);
     }
 
     public void IncreaseHealth(int amount)
@@ -40,6 +42,16 @@ public class Player : MonoBehaviour
         gameObject.SetActive(false);
         //boom
         //bang
+    }
+
+    public void ScoreUp(int value)
+    {
+        _score+= value;
+        if (_scoreText != null)
+        {
+            _scoreText.text = ("Score: " + _score);
+        }
+
     }
 
 }
