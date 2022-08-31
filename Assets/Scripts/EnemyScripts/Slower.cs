@@ -9,7 +9,7 @@ public class Slower : Enemy
     {
         //base.PlayerImpact(player);
         TankController controller = player.GetComponent<TankController>();
-        if (controller != null)
+        if (controller != null && player.invincibility != true)
         {
             controller.MaxSpeed -= _speedAmount;
         }

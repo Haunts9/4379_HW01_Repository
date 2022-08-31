@@ -22,7 +22,11 @@ public class Enemy : MonoBehaviour
         if(player != null)
         {
             PlayerImpact(player);
-            ImpactFeedback();
+            if (player.invincibility != true)
+            {
+                ImpactFeedback();
+            }
+
         }
     }
 
@@ -39,7 +43,7 @@ public class Enemy : MonoBehaviour
             _impactParticles = Instantiate(_impactParticles, transform.position, Quaternion.identity);
         }
         //audio
-        if (_impactParticles != null)
+        if (_impactSound != null)
         {
             AudioHelper.PlayClip2D(_impactSound, 1f);
         }
